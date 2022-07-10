@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    color: #F1FFFF;
+    padding: 40px;
+    background: #222426;
+    font-family: 'Lato', sans-serif;
+}
+
+
+/* From uiverse.io by @EmmaxPlay */
+
+.card {
+    width: 800px;
+    height: 554px;
+    margin: 0 auto;
+    background-color: #24292F;
+    border-radius: 8px;
+    z-index: 1;
+}
+
+.tools {
+    display: flex;
+    align-items: center;
+    padding: 9px;
+}
+
+.circle {
+    padding: 0 4px;
+}
+
+.box {
+    display: inline-block;
+    align-items: center;
+    width: 10px;
+    height: 10px;
+    padding: 1px;
+    border-radius: 50%;
+}
+
+.red {
+    background-color: #ff605c;
+}
+
+.yellow {
+    background-color: #ffbd44;
+}
+
+.green {
+    background-color: #00ca4e;
+}
+
+
+/* M Y A U U */
+
+
+/* .pre {
+    color: #F1FFFF;
+} */
+
+.import_text {
+    color: #ff7b72;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.string_s {
+    color: #A5D6FF;
+    font-weight: 700;
+}
+
+.comments {
+    color: gray;
+    font-style: italic;
+}
+
+.purple {
+    color: #A09CFF;
+    font-weight: 700;
+}
+
+.string_a {
+    color: #74B8F4;
+    font-weight: 700;
+}

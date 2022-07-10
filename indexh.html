@@ -1,0 +1,83 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./still.css">
+    <title>Github Copilot</title>
+</head>
+
+<body>
+
+    <div class="card">
+        <div class="tools">
+            <div class="circle">
+                <span class="red box"></span>
+            </div>
+            <div class="circle">
+                <span class="yellow box"></span>
+            </div>
+            <div class="circle">
+                <span class="green box"></span>
+            </div>
+        </div>
+        <div class="card__content">
+            <pre id="typewriter">
+                
+        <span class="import_text">import </span> { fetch } <span class="import_text"> from </span> <span class="string_s"> "fetch-h2"</span>;
+        <span class="comments">
+        // Determine whether the sentiment of text is positive
+        // Use a web service
+        </span>
+        <span class="import_text"> async function </span> <span class="purple"> isPositive </span> (text: string): Promise \  { 
+              <span class="import_text">const </span> response = <span class="import_text"> await</span> <span class="purple"> fetch </span> (<span class="string_s"> `http://text-processing.com/api/sentiment/`</span>, {
+              <span class="string_a">method </span>: "POST",
+              <span class="string_a">body </span>: <span class="string_s"> `text= </span>${text}<span class="string_s">`</span>,
+              <span class="string_a">headers </span>: {
+                <span class="string_a">"Content-Type"</span>: <span class="string_a"> "application/x-www-form-urlencoded"</span>,
+              },
+            });
+            <span class="import_text"> const </span> json = <span class="import_text"> const </span> response.</span> <span class="purple">json</span>();
+            <span class="import_text"> const </span> json. <span class="string_a">label === </span> <span class="string_s">"post"</span>;
+          }
+          
+        </div>
+    </div>
+
+
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
+
+<!-- 
+
+    import { fetch } from "fetch-h2";
+// Determine whether the sentiment of text is positive
+// Use a web service
+async function isPositive(text: string): Promise<boolean> {
+  const response = await fetch(`http://text-processing.com/api/sentiment/`, {
+    method: "POST",
+    body: `text=${text}`,
+    headers: {
+      "Content-Type": "application/x-www-form-urlencoded",
+    },
+  });
+  const json = await response.json();
+  return json.label === "pos";
+}
+
+
+ --> 
+ 
+ <!-- <span class="var-highlight">var</span> object = {
+            name: <span class="string-highlight">'Foo'</span>,
+            type: <span class="string-highlight">'Bar'</span>,
+            location: <span class="string-highlight">'Earth'</span>,
+            properties:[<span class="string-highlight">'Javascript'</span>,
+                        <span class="string-highlight">'HTML'</span>,
+                        <span class="string-highlight">'CSS'</span>];
+        }; </pre> -->
